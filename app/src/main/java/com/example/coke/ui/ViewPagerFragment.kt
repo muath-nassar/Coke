@@ -58,7 +58,7 @@ class ViewPagerFragment : Fragment() {
             getChildAt(0).overScrollMode = RecyclerView.OVER_SCROLL_NEVER
         }
         CompositePageTransformer().apply {
-            addTransformer(MarginPageTransformer(40))
+            addTransformer(MarginPageTransformer(30))
             addTransformer { page, position ->
                 val r : Float = 1 - abs(position)
                 page.scaleY = 0.9f + r * 0.1f
