@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item
-    android:id="@+id/profile"
-    android:icon="@drawable/ic_profile_icon"
-    android:title="@string/profile"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-    android:id="@+id/doingGood"
-    android:icon="@drawable/ic_doing_good_icon"
-    android:title="@string/doing_good"/>
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="@string/profile"
+        app:showAsAction="withText" />
     <item
+        android:id="@+id/doingGood"
+        android:icon="@drawable/ic_doing_good_icon"
+        android:title="@string/doing_good"
+        app:showAsAction="withText" />
+    <item
+
         android:id="@+id/emptyItem"
-        android:title=""
-        />
-   <item
-    android:id="@+id/myPrezi"
-    android:icon="@drawable/ic_group_280"
-    android:title="@string/my_prezi"/>
-   <item
-    android:id="@+id/feed"
-    android:icon="@drawable/ic_feed_icon"
-    android:title="@string/feed"
-       android:iconTint="@android:color/darker_gray"/>
+        android:title="" />
+    <item
+        app:showAsAction="withText"
+        android:id="@+id/myPrezi"
+        android:icon="@drawable/ic_group_280"
+        android:title="@string/my_prezi" />
+    <item
+        app:showAsAction="withText"
+        android:id="@+id/feed"
+        android:icon="@drawable/ic_feed_icon"
+        android:iconTint="@android:color/darker_gray"
+        android:title="@string/feed" />
 
 
 </menu>
