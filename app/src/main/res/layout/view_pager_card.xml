@@ -2,13 +2,14 @@
     <androidx.cardview.widget.CardView
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:cardCornerRadius="30dp">
+        app:cardCornerRadius="40dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
 
@@ -54,16 +55,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="40dp"
-                android:layout_marginBottom="111dp"
+                android:layout_marginBottom="-40dp"
                 android:elevation="2dp"
                 android:src="@drawable/gift"
-                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/frameLayout"
                 app:layout_constraintEnd_toEndOf="@+id/frameLayout" />
 
             <FrameLayout
                 android:id="@+id/frameLayout"
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
+                android:layout_height="110dp"
                 android:layout_alignParentBottom="true"
                 android:alpha="0.4"
                 android:background="@drawable/shape_2"

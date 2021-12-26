@@ -4,10 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/drawable/background_black_gray_gradient.xml" value="0.1425925925925926" />
+        <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/drawable/ic_baseline_radio_button_checked_24.xml" value="0.12685185185185185" />
         <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/drawable/shape_2.xml" value="0.19375" />
-        <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/layout/activity_main.xml" value="0.46534653465346537" />
+        <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/layout/activity_main.xml" value="0.11627906976744186" />
         <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/layout/fragment_blank.xml" value="0.33" />
-        <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/layout/fragment_view_pager.xml" value="0.15625" />
+        <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/layout/fragment_view_pager.xml" value="0.75" />
         <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/layout/view_pager_card.xml" value="0.21" />
         <entry key="..\:/Users/Muath Nassar/Desktop/android_projects/Coke/app/src/main/res/menu/bottom_nav.xml" value="0.25" />
       </map>

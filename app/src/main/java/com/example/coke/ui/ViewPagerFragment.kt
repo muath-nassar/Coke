@@ -61,13 +61,15 @@ class ViewPagerFragment : Fragment() {
             addTransformer(MarginPageTransformer(40))
             addTransformer { page, position ->
                 val r : Float = 1 - abs(position)
-                page.scaleY = 0.85f + r * 0.15f
+                page.scaleY = 0.9f + r * 0.1f
+
             }
             binding.viewPager.setPageTransformer(this)
         }
         sliderHandler = Handler()
         slideRunnable = Runnable {
-            binding.viewPager.currentItem = binding.viewPager.currentItem + 1
+            //remove the comment to enable auto scroll
+            //binding.viewPager.currentItem = binding.viewPager.currentItem + 1
         }
         binding.viewPager.registerOnPageChangeCallback(
             object :ViewPager2.OnPageChangeCallback(){
