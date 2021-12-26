@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Coke</string>
+    <string name="profile">אזור אישי</string>
+    <string name="doing_good">עושים טוב</string>
+    <string name="my_prezi">חנות המתנות</string>
+    <string name="feed">בית</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
